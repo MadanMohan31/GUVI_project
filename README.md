@@ -3,13 +3,16 @@
 # Folder Format: [GUVI]
 -> CSS
    - index.css
+
 -> JS
    - register.js
    - login.js
+
 -> PHP
    - register.php
    - login.php
    - profile.php
+
 index.html
 register.html
 login.html
