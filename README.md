@@ -14,8 +14,11 @@
    - profile.php
 
 index.html
+
 register.html
+
 login.html
+
 profile.html
 
 # Flow of the Project:
