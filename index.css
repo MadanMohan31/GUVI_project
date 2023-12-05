@@ -1,0 +1,24 @@
+.wrapper {
+    border-top: 05px solid #AAFF00;
+    border-bottom: 05px solid #AAFF00;
+}
+
+.point {
+    text-decoration: none;
+    color: green;
+}
+
+.point:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.pointer {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.pointer:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
