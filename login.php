@@ -24,7 +24,6 @@ if(isset($_POST["login"])){
         if(password_verify($password, $user["Password"])){
             header("Location: profile.php");
             $_SESSION['firstname'] = $user["Firstname"];
-            $_SESSION['lastname'] = $user["Lastname"];
             $_SESSION['email'] = $user["Email"];
             $_SESSION['phone'] = $user["Phone"];
             $_SESSION['age'] = $user["Age"];
