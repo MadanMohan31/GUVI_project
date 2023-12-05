@@ -29,8 +29,13 @@ localhost/GUVI/index.html
 
 # Languages Used:
 HTML
+
 CSS (Bootstrap)
+
 JS
+
 Jquery AJAX
+
 PHP
+
 MySQL
