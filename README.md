@@ -13,10 +13,10 @@
    - login.php
    - profile.php
 
-- index.html
-- register.html
-- login.html
-- profile.html
+index.html
+register.html
+login.html
+profile.html
 
 # Flow of the Project:
 index.html -> register.html -> login.html -> profile.php
