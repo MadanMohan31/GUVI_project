@@ -1,8 +1,9 @@
 <?php
 
+$currentYear = date("Y");
+
 session_start();
 $firstname = $_SESSION['firstname'];
-$lastname = $_SESSION['lastname'];
 $email = $_SESSION['email'];
 $phone = $_SESSION['phone'];
 $age = $_SESSION['age'];
@@ -40,10 +41,10 @@ $age = $_SESSION['age'];
 
                 <form action="php/login.php" method="post">
 
-                    <p style="font-size: 22px;" class="text-center bg-light mt-3 mb-3">Hii <b><i><?php echo $firstname ?> <?php echo $lastname ?></i></b>, Welcome to the page.</p>
+                    <p style="font-size: 22px;" class="text-center bg-light mt-3 mb-3">Hii <b><i><?php echo $firstname ?></i></b>, Welcome to the page.</p>
                     <p style="font-size: 22px;" class="text-center bg-light mt-3 mb-3">Your e-mail is <b><i><?php echo $email ?></i></b>.</p>
                     <p style="font-size: 22px;" class="text-center bg-light mt-3 mb-3">Your Phone Number is <b><i><?php echo $phone ?></i></b>.</p>
-                    <p style="font-size: 22px;" class="text-center bg-light mt-3 mb-3">You are <b><i><?php echo 2023-$age ?></i></b> years old.</p>
+                    <p style="font-size: 22px;" class="text-center bg-light mt-3 mb-3">You are <b><i><?php echo $currentYear-$age ?></i></b> years old.</p>
 
                     
                 </form>
