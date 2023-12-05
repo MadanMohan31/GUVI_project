@@ -1,6 +1,6 @@
-# GUVI_project
+# GUVI_Project
 
-# Folder format: [GUVI]
+# Folder Format: [GUVI]
 -> CSS
    - index.css
 -> JS
@@ -18,10 +18,10 @@ profile.html
 # Flow of the Project:
 index.html -> register.html -> login.html -> profile.php
 
-# To run the code:
+# To Run the Code:
 localhost/GUVI/index.html
 
-# Languages used:
+# Languages Used:
 HTML
 CSS (Bootstrap)
 JS
