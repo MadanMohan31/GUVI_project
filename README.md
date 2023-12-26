@@ -1,6 +1,6 @@
-# GUVI_Project
+# LOGIN page
 
-# Folder Format: [GUVI]
+# Folder Format: [Login]
 -> CSS
    - index.css
 
